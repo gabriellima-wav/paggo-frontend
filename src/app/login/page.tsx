@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import TestConnection from "@/components/TestConnection";
+// import TestConnection from "@/components/TestConnection";
 
 export default function Login() {
     const [email, setEmail] = useState("");
@@ -24,8 +24,8 @@ export default function Login() {
                 <h1 className="text-2xl font-semibold mb-6 text-center text-blue-950">
                     Login
                 </h1>
-                {/* Adicione o componente de teste de conexão */}
-                <TestConnection />
+                {/* <TestConnection /> */}
+
                 <form
                     onSubmit={(e) => e.preventDefault()}
                     className="space-y-4"
